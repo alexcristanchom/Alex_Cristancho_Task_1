@@ -1,0 +1,10 @@
+.w-25{
+    width: 150px!important;
+    height: 50px!important;
+}
+
+main {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
