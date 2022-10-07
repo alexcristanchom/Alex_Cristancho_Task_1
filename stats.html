@@ -29,7 +29,8 @@
               </li>
           </ul>
     </header>
-    <main class="container-fluid d-flex border border-dark "style="height: 75vh">
+    <main class="container-fluid d-flex flex-column border border-dark gap-4"style="height: 75vh">
+      <h2>Stats</h2>
         <table class="table table-bordered">
             <thead>
               <tr>
@@ -114,14 +115,14 @@
               </tbody>
           </table>
     </main>
-    <footer style="height: 10vh" class="container d-flex justify-content-between bg-secondary border border-dark">
-    <div class="col-md-9">
-      <img src="./assets/images/instagram.png" class="w-25 rounded-circle" alt="instagram">
-      <img src="./assets/images/facebook.png" class="w-25" alt="facebook">
-      <img src="./assets/images/whatsapp.png" class="w-25" alt="whatsapp">
-    </div>
-    <h2>Cohort</h2>
-    </footer>
+    <footer style="width:100%; height: 10vh" class="full-container-fluid d-flex justify-content-between px-5 align-items-center bg-secondary border border-dark">
+      <div class="d-flex align-items-center gap-2">
+        <img src="./assets/images/instagram.png" class="img-fluid" width="50px" style="background-color:transparent;" alt="instagram">
+        <img src="./assets/images/facebook.png" class="img-fluid" width="50px" alt="facebook">
+        <img src="./assets/images/whatsapp.png" class="img-fluid" width="50px" alt="whatsapp">
+      </div>
+      <h2 class="text-center">Cohort</h2>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
