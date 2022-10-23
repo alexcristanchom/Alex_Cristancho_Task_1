@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Home</title>
 </head>
+
 <body>
-    <header class="container-fluid nav D-flex justify-content-around align-items-center bg-secondary border border-dark" style="height: 15vh">
-        <img src="./assets/images/Logo Amazing Events.png" class="w-25 bg-dark" alt="Logo Amaizing Events">
-        <ul class="nav gap-4">
-            <li class="nav-item ">
-              <a class="nav-link text-black bg-light active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-black bg-light" href="./upcoming_events.html">Upcoming Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-black bg-light" href="./past_events.html">Past Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-black bg-light" href="./contact.html">contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black bg-light" href="./stats.html">stats</a>
-              </li>
-          </ul>
-    </header>
-    <main class="full-container-fluid d-flex flex-column mt-5 mb-5 gap-4">
-      <h2>Home</h2>
-      <div id="cards"  class="full-container-fluid justify-content-center d-flex flex-wrap gap-4" style="width:90%">
-        
-      </div>
-    </main>
-    <footer style="width:100%; height: 10vh" class="full-container-fluid d-flex justify-content-between px-5 align-items-center bg-secondary border border-dark">
+  <header class="container-fluid nav D-flex justify-content-around align-items-center bg-secondary border border-dark"
+    style="height: 15vh">
+    <img src="./assets/images/Logo Amazing Events.png" class="w-25 bg-dark" alt="Logo Amaizing Events" />
+    <ul class="nav gap-4">
+      <li class="nav-item">
+        <a class="nav-link text-black bg-light active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-black bg-light" href="./upcoming_events.html">Upcoming Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-black bg-light" href="./past_events.html">Past Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-black bg-light" href="./contact.html">contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-black bg-light" href="./stats.html">stats</a>
+      </li>
+    </ul>
+  </header>
+  <main class="full-container-fluid d-flex flex-column mt-5 mb-5 gap-4">
+    <h2>Home</h2>
+    <div class="full-container-fluid d-flex gap-4">
+      <form id="checks" class="d-flex"></form>
+    </div>
+    <div id="cards" class="full-container-fluid justify-content-center d-flex flex-wrap gap-4" style="width: 90%"></div>
+  </main>
+  <footer style="width: 100%; height: 10vh"
+    class="full-container-fluid d-flex justify-content-between px-5 align-items-center bg-secondary border border-dark">
     <div class="d-flex align-items-center gap-2">
-      <img src="./assets/images/instagram.png" class="img-fluid" width="50px" style="background-color:transparent;" alt="instagram">
-      <img src="./assets/images/facebook.png" class="img-fluid" width="50px" alt="facebook">
-      <img src="./assets/images/whatsapp.png" class="img-fluid" width="50px" alt="whatsapp">
+      <img src="./assets/images/instagram.png" class="img-fluid" width="50px" style="background-color: transparent"
+        alt="instagram" />
+      <img src="./assets/images/facebook.png" class="img-fluid" width="50px" alt="facebook" />
+      <img src="./assets/images/whatsapp.png" class="img-fluid" width="50px" alt="whatsapp" />
     </div>
     <h2 class="text-center">Cohort</h2>
-    </footer>
-    <script src="./js/data.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </footer>
+  <script src="./js/data.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
