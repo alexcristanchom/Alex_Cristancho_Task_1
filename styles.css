@@ -8,3 +8,16 @@ main {
     justify-content: center !important;
     align-items: center !important;
 }
+
+.styleCards{
+    box-shadow: black .2em .2em;
+}
+
+.contenedor-header {
+    height: 15vh;
+    position: !important;
+}
+
+.contenedor-main {
+    min-height: 74vh!important;
+}
